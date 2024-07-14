@@ -1,1 +1,153 @@
+Here's the revised Model Search Prompt in Markdown format for easy readability by AI tools:
+
+## Model Search Prompt
+
+### **Introduction**
+
+Welcome to the Hugging Face Model Finder! This tool will guide you through identifying the best model for your specific needs. Please provide detailed information about your requirements by answering the following questions.
+
+### **Task Specification**
+
+1. **Primary Task**: What is the main task you want the model to perform?
+   - Examples:
+     - Text classification (e.g., topic categorization, sentiment analysis)
+     - Named entity recognition (NER)
+     - Machine translation
+     - Question answering
+     - Text generation
+     - Image classification
+     - Object detection
+     - Speech recognition
+   - Practical use cases:
+     - Customer feedback analysis: Sentiment analysis for text
+     - Automated content moderation: Text classification for toxicity detection
+     - Medical diagnosis support: Image classification for X-ray analysis
+     - Virtual assistant: Question answering and text generation
+
+2. **Language**: What language(s) will the model be working with?
+   - Examples: English, French, Spanish, Chinese, Arabic, multilingual
+   - Practical use cases:
+     - Global customer support: Multilingual model supporting major languages
+     - Legal document analysis in the EU: Model supporting multiple European languages
+     - Social media monitoring in Latin America: Spanish and Portuguese support
+
+3. **Input Type**: What type of input data will the model process?
+   - Examples: Text, images, audio, video, tabular data, time series
+   - Practical use cases:
+     - Voice-controlled smart home: Audio input for speech recognition
+     - Autonomous vehicles: Video and image input for object detection
+     - Stock market prediction: Time series data for forecasting
+
+### **Performance and Constraints**
+
+4. **Performance Metrics**: What are the key performance metrics you care about?
+   - Examples: Accuracy, F1 score, BLEU score, ROUGE score, Mean Average Precision (mAP), latency, throughput
+   - Practical use cases:
+     - Medical diagnosis: High precision and recall to minimize false positives/negatives
+     - Real-time translation app: Low latency and high BLEU score
+     - Search engine ranking: High Mean Average Precision (mAP)
+
+5. **Model Size and Speed**: Do you have any preferences or constraints regarding the model size or inference speed?
+   - Examples: Small and fast models, large and accurate models, balanced models
+   - Practical use cases:
+     - Mobile app integration: Small models like MobileNet or DistilBERT
+     - Cloud-based enterprise solution: Larger, more accurate models like BERT-large or GPT-3
+     - Edge device deployment: Quantized or pruned models optimized for specific hardware
+
+### **Training and Data**
+
+6. **Pre-trained vs. Fine-tuned**: Do you need a pre-trained model or a model that has been fine-tuned on a specific dataset?
+   - Examples: Pre-trained general-purpose model, domain-specific fine-tuned model
+   - Practical use cases:
+     - General text classification: Pre-trained BERT model
+     - Sentiment analysis for financial news: FinBERT (BERT fine-tuned on financial data)
+     - Medical image analysis: DenseNet fine-tuned on specific medical imaging datasets
+
+7. **Dataset**: If you need a fine-tuned model, specify the dataset or domain.
+   - Examples:
+     - IMDB for movie review sentiment analysis
+     - SQuAD for question answering
+     - ImageNet for general image classification
+     - MIMIC-III for healthcare applications
+   - Practical use cases:
+     - E-commerce product categorization: Fine-tuned on a proprietary product catalog dataset
+     - Legal document analysis: Models trained on legal corpora like Harvard Law case dataset
+
+### **Licensing and Usage**
+
+8. **License Type**: Are there any specific licensing requirements for the model?
+   - Examples: MIT, Apache 2.0, GPL, proprietary, commercial use allowed
+   - Practical use cases:
+     - Open-source project: Models with permissive licenses like MIT or Apache 2.0
+     - Commercial product: Ensure models have licenses that allow commercial use without restrictions
+
+9. **Usage Context**: Describe the context in which the model will be used.
+   - Examples: Research, commercial application, educational purposes, personal project
+   - Practical use cases:
+     - Academic research: Models with well-documented methodologies and reproducible results
+     - Enterprise solution: Models with professional support and regular updates
+     - Educational tool: Models with clear explanations and interpretability features
+
+### **Additional Preferences**
+
+10. **Model Architecture**: Do you have a preference for a specific model architecture?
+    - Examples: BERT, GPT, T5, ResNet, YOLO, Transformer
+    - Practical use cases:
+      - Natural language understanding: BERT-based models for contextual representations
+      - Text generation: GPT-style models for creative writing assistance
+      - Multi-modal tasks: Vision Transformer (ViT) for image-text tasks
+
+11. **Other Preferences**: Any other specific preferences or requirements?
+    - Examples:
+      - Robustness to noisy data
+      - Ability to handle long texts
+      - Interpretability features
+      - Multi-lingual capabilities
+      - Zero-shot or few-shot learning abilities
+    - Practical use cases:
+      - Social media analysis: Models robust to informal language and misspellings
+      - Legal document processing: Models capable of handling very long documents
+      - Automated decision systems: Models with built-in explainability features
+
+### **Example Prompt Usage**
+
+Here's an example of how a completed prompt might look for a specific use case:
+
+```markdown
+Primary Task: Sentiment Analysis
+Language: English and Spanish
+Input Type: Text (social media posts)
+Performance Metrics: F1 Score, Accuracy, and Inference Speed
+Model Size and Speed: Medium-sized, optimized for cloud deployment
+Pre-trained vs. Fine-tuned: Fine-tuned
+Dataset: Twitter sentiment dataset
+License Type: Apache 2.0
+Usage Context: Commercial application (social media monitoring tool)
+Model Architecture: DistilBERT or similar efficient Transformer
+Other Preferences:
+- Robustness to informal language and emojis
+- Ability to handle short texts (tweets)
+- Multi-lingual support with comparable performance in English and Spanish
+```
+
+### **Conclusion**
+
+By providing detailed answers to these questions, you can significantly narrow down the list of potential models on Hugging Face, making it easier to find the one that best fits your needs. Once you have your answers, use the Hugging Face Hub's search and filter features to identify models that match your criteria. Remember to review the model card, check recent usage statistics, and consider community feedback when making your final selection.
+
+Citations:
+[1] https://www.markdownguide.org/getting-started/
+[2] https://www.freecodecamp.org/news/markdown-cheat-sheet/
+[3] https://learn.microsoft.com/en-us/powershell/scripting/community/contributing/general-markdown?view=powershell-7.4
+[4] https://www.markdownguide.org/basic-syntax/
+[5] https://www.writethedocs.org/guide/writing/markdown/
+[6] https://google.github.io/styleguide/docguide/style.html
+[7] https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+[8] https://forum.literatureandlatte.com/t/i-want-to-write-in-markdown-is-it-possible/137631
+[9] https://israelmitolu.hashnode.dev/markdown-for-technical-writers-tips-tricks-and-best-practices
+[10] https://daringfireball.net/projects/markdown/syntax
+[11] https://www.ibm.com/docs/en/SSYKAV?topic=train-how-do-use-markdown
+[12] http://lowepowerlab.ucdavis.edu/protocols/markdown_best_practices.html
+[13] https://www.markdownguide.org/cheat-sheet/
+[14] https://www.reddit.com/r/technicalwriting/comments/xrcjve/i_am_confused_how_markdown_workshow_to_use_it_for/
+[15] https://talk.commonmark.org/t/markdown-best-practices/3115
 
